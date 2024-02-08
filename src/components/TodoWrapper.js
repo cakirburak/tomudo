@@ -9,8 +9,6 @@ export const TodoWrapper = () => {
 
 	const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")) || [])
 
-	console.log();
-
 	useEffect(() => {
 		localStorage.setItem("todos", JSON.stringify(todos))
 	}, [todos])
@@ -39,8 +37,6 @@ export const TodoWrapper = () => {
 	const handleEdit = (id) => {
 		setTodos(todos.map(todo => todo.id === id ? { ...todo, isEditing: !todo.isEditing } : todo))
 	}
-
-
 
 	return (
 		<div className="TodoWrapper">
