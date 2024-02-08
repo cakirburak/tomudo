@@ -33,17 +33,25 @@ h1 {
 
 .TodoForm {
 	width: 100%;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+.EditTodoForm {
+	box-sizing: border-box;
+	width: 100%;
+	background: none;
+	color: #fff;
 	margin-bottom: 1rem;
+	height: 49px;
 }
 
 .todo-input {
 	outline: none;
 	background: none;
 	border: 1px solid #8758ff;
-	padding: 0.5rem 1rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	width: 300px;
+	padding: 0.75rem 1rem;
+	width: 200px;
 	color: #fff;
 }
 
@@ -55,8 +63,9 @@ h1 {
 	background: #8758ff;
 	color: #fff;
 	border: none;
-	padding: 0.55rem;
+	padding: 0.79rem 0.55rem;
 	cursor: pointer;
+	width: 80px;
 }
 
 .Todo {
@@ -88,4 +97,10 @@ h1 {
 .edit-icon,
 .delete-icon {
 	cursor: pointer;
+}
+
+@media (min-width: 576px) {
+	.todo-input {
+		width: 300px;
+	}
 }
