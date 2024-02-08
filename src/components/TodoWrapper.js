@@ -1,14 +1,19 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { TodoForm } from "./TodoForm"
 import { v4 as uuidv4 } from "uuid"
 import { Todo } from "./Todo"
 import { EditTodoForm } from "./EditTodoForm"
-import { isEditable } from "@testing-library/user-event/dist/utils"
 uuidv4()
 
 export const TodoWrapper = () => {
 
-	const [todos, setTodos] = useState([])
+	const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")) || [])
+
+	console.log();
+
+	useEffect(() => {
+		localStorage.setItem("todos", JSON.stringify(todos))
+	}, [todos])
 
 	const addTodo = (todo) => {
 		setTodos([...todos, {
