@@ -38,9 +38,10 @@ This project is a simple Todo List application developed using React. It allows 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Insert task to ToDo list;\
-:heavy_check_mark: Edit task from ToDo list;\
-:heavy_check_mark: Delete task from ToDo list;\
+:heavy_check_mark: **Add Tasks:** Users can add new tasks to the list.\
+:heavy_check_mark: **Edit Tasks:** Tasks can be edited directly within the list.\
+:heavy_check_mark: **Delete Tasks:** Users can remove tasks they no longer need.;\
+:heavy_check_mark: **Local Storage:** All tasks are stored in the browser's local storage, ensuring persistence even after the browser is closed.\
 
 ## :rocket: Technologies ##
 
