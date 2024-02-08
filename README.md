@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Tomudo" />
+  <img src="https://img.icons8.com/color/96/todo-list--v1.png" alt="Tomudo" />
 
   &#xa0;
 
@@ -15,7 +15,8 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/cakirburak/tomudo?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/cakirburak/tomudo?color=56BEB8">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/cakirburak/tomudo?color=56BEB8">
+
 
 </p>
 
@@ -41,13 +42,15 @@ This project is a simple Todo List application developed using React. It allows 
 :heavy_check_mark: **Add Tasks:** Users can add new tasks to the list.\
 :heavy_check_mark: **Edit Tasks:** Tasks can be edited directly within the list.\
 :heavy_check_mark: **Delete Tasks:** Users can remove tasks they no longer need.;\
-:heavy_check_mark: **Local Storage:** All tasks are stored in the browser's local storage, ensuring persistence even after the browser is closed.\
+:heavy_check_mark: **Local Storage:** All tasks are stored in the browser's local storage, ensuring persistence even after the browser is closed.
 
-## :rocket: Technologies ##
+## :rocket: Technologies & Dependencies ##
 
 The following tools were used in this project:
 
 - [React](https://pt-br.reactjs.org/)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [Font Awesome](https://fontawesome.com/docs/web/use-with/react/)
 
 ## :white_check_mark: Requirements ##
 
