@@ -1,7 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://img.icons8.com/color/96/todo-list--v1.png" alt="Tomudo" />
-
-  &#xa0;
+  <a href="https://tomudo.onrender.com"><img src="https://img.icons8.com/color/96/todo-list--v1.png" alt="Tomudo" /></a>
 
   <a href="https://tomudo.onrender.com">Demo</a>
 </div>
