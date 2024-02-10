@@ -38,12 +38,12 @@ h1 {
 }
 
 .EditTodoForm {
-	box-sizing: border-box;
 	width: 100%;
 	background: none;
 	color: #fff;
 	margin-bottom: 1rem;
 	height: 49px;
+	border-radius: none;
 }
 
 .todo-input {
@@ -53,6 +53,7 @@ h1 {
 	padding: 0.75rem 1rem;
 	width: 200px;
 	color: #fff;
+	border-radius: none;
 }
 
 .todo-input::placeholder {
@@ -89,7 +90,7 @@ h1 {
 }
 
 .completed {
-	color: #c5aeff;
+	color: #E8BCB9;
 	text-decoration: line-through;
 	cursor: pointer;
 }
