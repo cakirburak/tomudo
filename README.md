@@ -19,18 +19,6 @@
 </p>
 
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/cakirburak" target="_blank">Author</a>
-</p>
-
-<br>
-
 ## :dart: About ##
 
 This project is a simple Todo List application developed using React. It allows users to add, edit, and delete tasks, with the added functionality of storing these tasks in the browser's local storage for easy revisiting.
@@ -42,7 +30,7 @@ This project is a simple Todo List application developed using React. It allows 
 :heavy_check_mark: **Delete Tasks:** Users can remove tasks they no longer need.;\
 :heavy_check_mark: **Local Storage:** All tasks are stored in the browser's local storage, ensuring persistence even after the browser is closed.
 
-## :rocket: Technologies & Dependencies ##
+## :rocket: Dependencies ##
 
 The following tools were used in this project:
 
@@ -75,9 +63,6 @@ $ npm start
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/cakirburak" target="_blank">cakirburak</a>
 
 &#xa0;
 
